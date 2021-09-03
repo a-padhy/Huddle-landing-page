@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
+
+:root {
+    --Violet: hsl(257, 40%, 49%);
+    --Soft-Magenta: hsl(300, 69%, 71%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--Violet);
+  background-image: url("/images/bg-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.container {
+  height: 100%;
+  margin: 0 auto;
+  max-width: 1300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.header img {
+  width: 180px;
+  padding-bottom: 40px;
+}
+
+/* text content */
+
+.text-part {
+  width: 454px;
+}
+
+.text-part h1 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  opacity: 0.9;
+  font-weight: 600;
+}
+
+.text-part p {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  opacity: 0.8;
+  line-height: 1.8;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.text-part button {
+  font-family: "Poppins", sans-serif;
+  padding: 15px 50px;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 0 10px 16px -10px rgba(0, 0, 0, 0.8);
+  transition: all 0.3s ease;
+  display: inline-block;
+  color: var(--Violet);
+  font-size: 0.9375rem;
+}
+
+.text-part button:hover {
+  background-color: var(--Soft-Magenta);
+  color: white;
+}
+
+/* contact icons */
+
+a {
+  text-decoration: none;
+}
+
+.contact {
+  text-align: right;
+}
+
+.contact a i {
+  color: white;
+  font-size: 1.125rem;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.contact a:not(:first-child) {
+  margin-left: 1.7rem;
+}
+
+.contact a i::after {
+  content: "";
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  border: 2px solid white;
+  border-radius: 50%;
+  left: -8px;
+  bottom: -8px;
+  transition: all 0.3s ease;
+}
+
+.contact a:nth-child(2) {
+  margin-left: 2rem;
+}
+
+.contact a:hover i {
+  color: var(--Soft-Magenta);
+}
+
+.contact a:hover::after {
+  color: var(--Soft-Magenta);
+}
+
