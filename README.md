@@ -43,10 +43,10 @@ Desktop version
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+Will do more of this challenges to improve my skills. 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Name - [Ashutosh Padhy](https://ashutoshpadhy.vercel.app/)
+- Frontend Mentor - [@ashutoshpadhy001](https://www.frontendmentor.io/profile/ashutoshpadhy001)
+- Twitter - [@__apadhy](https://www.twitter.com/__apadhy)
